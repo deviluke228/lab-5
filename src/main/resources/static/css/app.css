@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f6fb;
+    color: #1f2937;
+}
+
+.container {
+    width: min(1000px, calc(100% - 32px));
+    margin: 40px auto;
+}
+
+h1 {
+    margin-bottom: 24px;
+}
+
+.panel {
+    background: #ffffff;
+    border: 1px solid #d9e2ef;
+    border-radius: 10px;
+    padding: 18px;
+    margin-bottom: 18px;
+}
+
+.panel h2 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.row-form,
+.book-form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+input {
+    min-width: 180px;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+}
+
+button,
+.button {
+    border: none;
+    border-radius: 7px;
+    padding: 10px 16px;
+    background: #2563eb;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button.secondary {
+    background: #64748b;
+}
+
+.flash {
+    padding: 12px 16px;
+    border: 1px solid #86efac;
+    background: #dcfce7;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th,
+td {
+    padding: 12px 14px;
+    border: 1px solid #d9e2ef;
+    text-align: left;
+}
+
+th {
+    background: #eaf1fb;
+}
+
+tr:nth-child(even) td {
+    background: #f8fafc;
+}
